@@ -1,0 +1,19 @@
+name: RPG
+main: com.rebelempiremc.sigler.RPG
+version: 1.0
+description: RPG enviorment
+author: 97WaterPolo
+website: http://goo.gl/134sbD
+commands:
+  drop:
+    description: Toggles dropping
+  sendto:
+    description: Send items to players
+  send:
+    description: Send items to players
+  st:
+    description: Send items to players
+permissions:
+  remc.rpg.drop:
+    description: Allows you to use /drop
+    default: op
